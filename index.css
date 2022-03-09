@@ -44,8 +44,7 @@ body {
   color: var(--btn-color);
   border-radius: 3px;
 }
-.btn-more,
-.btn-cart {
+.btn-more,.btn-cart {
   background-color: transparent;
   border: none;
   color: white;
@@ -62,3 +61,56 @@ body {
 .cat-1 {
   text-align: center;
 }
+/* First Section */
+.head img {
+  height: 75px;
+  }
+  .advertise {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  .mains {
+  box-shadow: 0 2px 4px 0 var(--shadow);
+  }
+  .mains-header,.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  }
+  .heading {
+  display: flex;
+  align-items: center;
+  }
+  .btn-view {
+  background-color: var(--btn-color);
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+  }
+  .main-items,.items {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  }
+  .item .body p {
+  padding: 0.4rem;
+  }
+  .text {
+  font-weight: 400;
+  }
+  .offer {
+  color: green;
+  }
+  .tag {
+  font-size: 12px;
+  color: grey;
+  }
+  .new-adver {
+  box-shadow: 0 2px 4px 0 var(--shadow);
+  }
+  
