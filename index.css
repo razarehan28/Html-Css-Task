@@ -50,4 +50,15 @@ body {
   border: none;
   color: white;
 }
-
+/* Categories */
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aliceblue;
+  box-shadow: 0 1px 1px 0 ;
+  padding: 1rem 4rem 1rem 4rem;
+}
+.cat-1 {
+  text-align: center;
+}
