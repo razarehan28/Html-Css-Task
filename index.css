@@ -65,7 +65,7 @@ body {
 .head img {
   height: 75px;
   }
-  .advertise {
+ .advertise {
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -112,5 +112,35 @@ body {
   }
   .new-adver {
   box-shadow: 0 2px 4px 0 var(--shadow);
+  }
+.books-music {
+  margin: 1rem;
+  box-shadow: 0 2px 4px 0 var(--shadow);
+  }
+  .heading1 {
+  display: flex;
+  flex-direction: column;
+  }
+  .text {
+  color: grey;
+  font-size: 12px;
+  padding-top: 0.3rem;
+  }
+  /* Responsive */
+  @media screen and (max-width: 829px) {
+  .navbar {
+  height: 9rem;
+  min-width: fit-content;
+  flex-wrap: wrap;
+  }
+  .categories {
+  flex-wrap: wrap;
+  }
+  .main-items,.items {
+  flex-wrap: wrap;
+  }
+  .new-adver {
+  display: none;
+  }
   }
   
